@@ -2,93 +2,155 @@
 
 <div align="center">
 
-<img src="https://via.placeholder.com/1000x260/0d1117/ff0000?text=SHADOWSCAN+PRO" />
+![ShadowScan Pro](https://via.placeholder.com/800x200/1a1a2e/ff0000?text=SHADOWSCAN+PRO)
 
-### ⚡ Advanced Offensive Security & Auto-Exploitation Framework ⚡
+**Advanced Offensive Security & Auto-Exploitation Framework**
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20Kali-black?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-1.0.0-red?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-red?style=for-the-badge)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat&logo=python)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20Kali-red?style=flat)](https://www.kali.org/)
+[![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-1.0.0-red.svg)](https://github.com/rohaib11/ShadowScanPro)
 
 ---
 
-### 👨‍💻 Developed by ROHAIB TECHNICAL  
-📞 +92 306 3844400  
+### ⚡ Developed by ROHAIB TECHNICAL ⚡
+### 📞 +92 306 3844400 📞
 
-> **"The tool that doesn't just find vulnerabilities — it EXPLOITS them"**
+*"The tool that doesn't just find vulnerabilities - it EXPLOITS them"*
 
 </div>
 
 ---
 
-# ⚠️ LEGAL DISCLAIMER
+## ⚠️ LEGAL DISCLAIMER
 
-SHADOWSCAN PRO is strictly for ethical use only.
+**SHADOWSCAN PRO is an OFFENSIVE security tool designed exclusively for:**
 
-✔ Authorized penetration testing  
-✔ Red team operations  
-✔ Security research  
-✔ Educational purposes  
-✔ CTF competitions  
+- ✅ Authorized penetration testing with written consent
+- ✅ Red team operations with explicit permission
+- ✅ Security research in controlled laboratory environments
+- ✅ Educational purposes in academic settings
+- ✅ Capture The Flag (CTF) competitions
 
-❌ Illegal hacking  
-❌ Unauthorized attacks  
+**The developer assumes NO liability for:**
+- ❌ Unauthorized use against systems without permission
+- ❌ Malicious activities or cyber attacks
+- ❌ Any damages resulting from misuse
+- ❌ Legal consequences of illegal activities
 
----
-
-# 🔥 OVERVIEW
-
-SHADOWSCAN PRO is a military-grade offensive security automation framework built for real-world exploitation.
-
-✔ Auto exploitation  
-✔ Live attack dashboard  
-✔ Post-exploitation automation  
-✔ Stealth evasion  
+**By using this tool, you agree to use it ethically and legally.**
 
 ---
 
-# ✨ FEATURES
+## 📋 Table of Contents
 
-## 🔴 Active Exploitation
-- SQL Injection
-- XSS
-- LFI / RFI
-- Command Injection
-- SSRF
-- Log4Shell
-- EternalBlue
-- BlueKeep
-- Spring4Shell
-- Jenkins Exploits
-
-## 🟠 Stealth & Evasion
-- WAF bypass (50+ techniques)
-- TOR + VPN chain
-- Fingerprint spoofing
-- Captcha solver
-- User-agent rotation
-
-## 🟡 Network Attacks
-- Subdomain takeover
-- Cloud misconfig scanning
-- Kubernetes exploitation
-- Docker API attacks
-- SMB & RDP exploits
-
-## 🟢 OSINT
-- Dark web crawler
-- Telegram intelligence
-- Leak search
-- Crypto wallet finder
-
-## 🔵 Post-Exploitation
-- Persistence
-- Credential dumping
-- Lateral movement
-- Keylogger
+- [Overview](#-overview)
+- [Features](#-features)
+- [Installation](#-installation)
+  - [Windows Installation](#windows-installation)
+  - [Kali Linux Installation](#kali-linux-installation)
+  - [Docker Installation](#docker-installation)
+- [Usage](#-usage)
+  - [Command Reference](#command-reference)
+  - [Examples](#examples)
+- [Modules](#-modules)
+  - [Exploitation Modules](#exploitation-modules)
+  - [OSINT Modules](#osint-modules)
+  - [Post-Exploitation Modules](#post-exploitation-modules)
+  - [Stealth & Evasion](#stealth--evasion)
+- [Configuration](#-configuration)
+- [Project Structure](#-project-structure)
+- [Screenshots](#-screenshots)
+- [FAQ](#-faq)
+- [Contact](#-contact)
+- [License](#-license)
 
 ---
+
+## 🔥 Overview
+
+**SHADOWSCAN PRO** is a military-grade offensive security automation framework that combines **real hacking capabilities** with a stunning, modern CLI interface. Unlike traditional tools that just scrape public data, ShadowScan Pro actively **exploits, penetrates, and maps** target infrastructure using advanced techniques used by nation-state actors and professional red teams.
+
+### Why ShadowScan Pro?
+
+| Traditional OSINT Tools | **SHADOWSCAN PRO** |
+|------------------------|---------------------|
+| Just scrapes public data | **Actively exploits and penetrates** |
+| Passive reconnaissance | **Offensive attack automation** |
+| Reports what it finds | **Gives you shells and access** |
+| Defensive-focused | **Red team / Offensive security** |
+| Basic CLI | **Cinematic, real-time attack dashboard** |
+| Requires manual exploitation | **Auto-exploit chain with AI** |
+| No post-exploitation | **Full post-exploitation suite** |
+
+---
+
+## ✨ Features
+
+### 🔴 Active Exploitation
+
+| Feature | Description | CVE Coverage |
+|---------|-------------|--------------|
+| **Auto-Exploit Suggester** | Analyzes services and suggests working exploits | 50+ CVEs |
+| **SQLi Auto-Injector** | Finds and exploits SQL injection vulnerabilities | N/A |
+| **XSS Payload Generator** | Creates custom XSS payloads with WAF bypass | N/A |
+| **LFI/RFI Scanner** | Detects and exploits file inclusion vulnerabilities | N/A |
+| **Command Injection Tester** | Tests for RCE via command injection | N/A |
+| **SSRF Exploitation Chain** | Automates SSRF to internal network pivoting | N/A |
+| **Log4Shell Exploit** | CVE-2021-44228 - Remote code execution | Critical (10.0) |
+| **EternalBlue Exploit** | CVE-2017-0144 - SMBv1 RCE | Critical (9.8) |
+| **BlueKeep Exploit** | CVE-2019-0708 - RDP RCE | Critical (9.8) |
+| **Ghostcat Exploit** | CVE-2020-1938 - Tomcat AJP LFI | High (9.8) |
+| **Spring4Shell Exploit** | CVE-2022-22965 - Spring RCE | Critical (9.8) |
+| **Jenkins Exploits** | Multiple Jenkins RCE exploits | Critical |
+
+### 🟠 Stealth & Evasion
+
+| Feature | Description |
+|---------|-------------|
+| **AI-Powered WAF Bypass** | 50+ techniques to bypass Web Application Firewalls |
+| **TOR + VPN Chain** | Multi-hop anonymity with automatic circuit rotation |
+| **Fingerprint Randomization** | Spoofs 50+ browser fingerprint parameters |
+| **Rate-Limit Evasion** | Smart request throttling to avoid detection |
+| **Captcha Solver** | OCR + AI for automatic captcha solving |
+| **User-Agent Mutation** | 10,000+ rotating user agents |
+| **Request Jitter** | Random delays to avoid pattern detection |
+
+### 🟡 Network & Infrastructure Attacks
+
+| Feature | Description |
+|---------|-------------|
+| **Subdomain Takeover Detector** | Checks 50+ vulnerable services for takeover |
+| **Cloud Misconfiguration Scanner** | Finds exposed S3, Azure Blobs, GCP Buckets |
+| **Kubernetes Exploiter** | Scans for exposed K8s APIs and exploits |
+| **Docker API Hijacker** | Finds and exploits exposed Docker APIs |
+| **SMB Exploitation** | EternalBlue, SMBGhost, SMBleed |
+| **RDP Exploitation** | BlueKeep, credential brute force |
+
+### 🟢 Advanced OSINT
+
+| Feature | Description |
+|---------|-------------|
+| **Dark Web Crawler** | Scrapes .onion sites for leaked credentials |
+| **Telegram Intel Gatherer** | Monitors Telegram channels for data leaks |
+| **Crypto Wallet Finder** | Scans for exposed private keys and seed phrases |
+| **Corporate Email Compromise Checker** | Finds CEO/CFO emails for BEC attacks |
+| **Employee Password Dump Finder** | Searches paste sites for corporate credentials |
+| **Leak Searcher** | Searches 10+ breach databases |
+
+### 🔵 Post-Exploitation
+
+| Feature | Description |
+|---------|-------------|
+| **Auto-Persistence Installer** | 10+ methods (Registry, Cron, Services, WMI) |
+| **Lateral Movement Mapper** | Maps internal network from foothold |
+| **Privilege Escalation Suggester** | Finds local PE vectors (SUID, sudo, services) |
+| **Credential Harvester** | Extracts passwords from memory and files |
+| **Keylogger Deployer** | Deploys stealth keyloggers |
+| **Mimikatz Integration** | Dumps credentials from LSASS |
+
+---
+
 
 # 📦 INSTALLATION
 
@@ -101,15 +163,33 @@ cd ShadowScanPro
 
 ## Linux
 ```bash
+# Clone the repository
 git clone https://github.com/rohaib11/ShadowScanPro.git
 cd ShadowScanPro
+
+# Run the installer
 chmod +x scripts/install.sh
 sudo ./scripts/install.sh
+
+# Or manual installation
+python3 -m venv venv
+source venv/bin/activate
+pip install -e .
+
+# Verify installation
+shadowscan --help
 ```
 
 ## Docker
 ```bash
-docker-compose up -d
+# Build and run with Docker
+docker-compose -f docker/docker-compose.yml up -d
+
+# Run a scan
+docker exec shadowscan-pro shadowscan scan --target example.com
+
+# Interactive mode
+docker exec -it shadowscan-pro shadowscan interactive
 ```
 
 ---
@@ -127,85 +207,20 @@ shadowscan post-exploit --session shell-1
 # 📁 PROJECT STRUCTURE
 
 ShadowScanPro/
-├── shadowscan/
-│   ├── __init__.py              # Package initialization
-│   ├── __main__.py              # CLI entry point
-│   │
-│   ├── core/                    # Core engine
-│   │   ├── engine.py            # Main attack engine (800+ lines)
-│   │   ├── exploit_chain.py     # Auto-exploit chaining
-│   │   ├── payload_generator.py # Payload generation
-│   │   ├── stealth_manager.py   # Stealth & evasion
-│   │   ├── session_manager.py   # Session management
-│   │   └── monitor.py           # Attack monitoring
-│   │
-│   ├── dashboard/               # CLI Dashboard
-│   │   ├── cli_dashboard.py     # Main dashboard (400+ lines)
-│   │   ├── attack_monitor.py    # Real-time monitoring
-│   │   ├── progress_bars.py     # Visual progress
-│   │   └── colors.py            # Color schemes
-│   │
-│   ├── exploits/                # Exploit modules
-│   │   ├── web/                 # Web exploits (7 modules)
-│   │   ├── network/             # Network exploits (4 modules)
-│   │   ├── cloud/               # Cloud exploits (4 modules)
-│   │   └── cve/                 # CVE exploits (4 modules)
-│   │
-│   ├── osint/                   # OSINT modules
-│   │   ├── darkweb_crawler.py   # Dark web search
-│   │   ├── telegram_scraper.py  # Telegram monitoring
-│   │   ├── crypto_finder.py     # Crypto wallet finder
-│   │   └── leak_searcher.py     # Breach search
-│   │
-│   ├── post_exploit/            # Post-exploitation
-│   │   ├── persistence.py       # Persistence (10+ methods)
-│   │   ├── lateral_movement.py  # Lateral movement
-│   │   ├── privesc.py           # Privilege escalation
-│   │   ├── credential_harvester.py # Credential theft
-│   │   └── keylogger.py         # Keylogger deployment
-│   │
-│   ├── utils/                   # Utilities
-│   │   ├── waf_bypass.py        # WAF bypass (50+ techniques)
-│   │   ├── tor_manager.py       # Tor management
-│   │   ├── fingerprint_randomizer.py # Browser spoofing
-│   │   └── captcha_solver.py    # Captcha solving
-│   │
-│   └── config/                  # Configuration
-│       └── settings.yaml        # Main config file
-│
-├── scripts/                     # Installation scripts
-│   ├── install.sh              # Kali Linux installer
-│   ├── install-windows.ps1     # Windows installer
-│   ├── update_apis.sh          # API key updater
-│   └── cleanup.sh              # Cleanup utility
-│
-├── docker/                      # Docker files
-│   ├── Dockerfile
-│   ├── docker-compose.yml
-│   └── redis.conf
-│
-├── tests/                       # Test suite
-│   ├── test_shadowscan.py      # Main test
-│   └── test_scan.py            # Scan test
-│
-├── requirements.txt             # Python dependencies
-├── setup.py                     # Installation setup
-├── shadowscan.bat              # Windows launcher
-├── shadowscan.ps1              # PowerShell launcher
-├── README.md                    # This file
-└── LICENSE                      # License file
+ ├── shadowscan/
+ ├── exploits/
+ ├── osint/
+ ├── post_exploit/
+ ├── utils/
+ ├── scripts/
+ ├── docker/
+ ├── tests/
 
 ---
 
 # 🎯 DASHBOARD
 
-TARGET: example.com  
-STATUS: ATTACKING  
-
-██████████████░░░░ 68%
-
-SQL Injection → VULNERABLE  
-XSS → EXPLOITABLE  
+ 
 
 ---
 
