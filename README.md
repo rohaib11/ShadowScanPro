@@ -236,9 +236,26 @@ ShadowScanPro/
   * A: ShadowScan Pro is proprietary software. Contact the developer for licensing.
 * **Q: What platforms are supported?**
   * A: Windows, Kali Linux, Ubuntu, Debian, macOS (limited).
-* **Q: How do I stay anonymous?**
-  * A: Use `--stealth` `--tor` flags and VPN for maximum anonymity.
+* **Q: Do I need programming skills to use this?**
+  * A: Basic command-line knowledge is sufficient. Advanced features may require scripting.
 
+### Technical Questions
+* **Q: Why am I getting "No module named 'shadowscan'"?**
+  * A: Run `pip install -e .` in the project directory to install the package.
+* **Q: How do I enable Tor?**
+  * A: Install Tor (`sudo apt install tor`), start the service, and use the `--tor` flag.
+* **Q: The tool is slow. How can I speed it up?**
+  * A: Reduce scan intensity, disable service detection, or increase thread count.
+* **Q: Can I use this for bug bounty?**
+  * A: Yes, with proper authorization from the target organization.
+
+### Security Questions
+* **Q: Is my data safe?**
+  * A: All data is stored locally. No telemetry or cloud upload.
+* **Q: Can this be detected by antivirus?**
+  * A: Some payloads may trigger AV. Use obfuscation and stealth mode.
+* **Q: How do I stay anonymous?**
+  * A: Use `--stealth` and `--tor` flags and a VPN for maximum anonymity.
 ---
 
 ## 📞 CONTACT
