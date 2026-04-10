@@ -225,30 +225,8 @@ ShadowScanPro/
 
 ## 🎯 DASHBOARD
 
-```text
-┌─────────────────────────────────────────────────────────────────────────────────┐
-│ 🔴 LIVE ATTACK DASHBOARD - target: example.com                                  │
-├─────────────────────────────────────────────────────────────────────────────────┤
-│                                                                                 │
-│  🎯 TARGET: example.com                      ⚡ STATUS: ATTACKING                 │
-│  🌐 IP: 93.184.216.34                        📡 VULNS FOUND: 3                  │
-│  🏢 HOSTING: EdgeCast Networks               💀 EXPLOITS READY: 2                 │
-│                                                                                 │
-│  ████████████████████████████████████████░░░░░░░░░░░░░░░░░░  68% COMPLETE       │
-│                                                                                 │
-│  ┌─────────────────────────────────────────────────────────────────────────┐   │
-│  │ 🔥 ACTIVE EXPLOITS                                                      │   │
-│  ├─────────────────────────────────────────────────────────────────────────┤   │
-│  │ [████████] CVE-2021-44228 (Log4Shell) .................... NOT VULNERABLE│   │
-│  │ [████████] SQL Injection at /api/login .................. VULNERABLE!    │   │
-│  │ [██████░░] XSS in search parameter ...................... EXPLOITABLE!   │   │
-│  └─────────────────────────────────────────────────────────────────────────┘   │
-│                                                                                 │
-│  💀 SHELLS OBTAINED: 0              🔑 CREDS FOUND: 0                           │
-│  📁 FILES EXFILTRATED: 0 MB         🌐 INTERNAL HOSTS: 0                        │
-│                                                                                 │
-└─────────────────────────────────────────────────────────────────────────────────┘
-```
+<img width="1122" height="558" alt="image" src="https://github.com/user-attachments/assets/72d549f5-57f7-455e-b147-f0d738b96751" />
+
 
 ---
 
@@ -266,17 +244,22 @@ ShadowScanPro/
 ## 📞 CONTACT
 
 <div align="center">
-**ROHAIB TECHNICAL**<br>
-📱 Phone/WhatsApp: +92 306 3844400<br>
-📧 Email: rohaib@technical.com<br>
-🐦 Twitter: @rohaibtech<br>
-💬 Telegram: @rohaibtechnical<br>
-🌐 Website: https://rohaibtechnical.com<br>
 
-**Available for:**
-🔴 Custom Tool Development | 🔴 Penetration Testing Services | 🔴 Red Team Operations
+## 📞 Get In Touch
+**ROHAIB TECHNICAL**
 
-*"If you need a custom security tool, I can build it."*
+📱 **Phone/WhatsApp:** +92 306 3844400  |  📧 **Email:** rohaibmansha550@gmail.com
+  | 💬 **Telegram:** @rohaibtechnical 🌐 **Website:** [rohaibtechnical.com](https://rohaibtechnical.com)
+
+---
+
+### 🛡️ Services Provided
+**`🔴 Custom Tool Development`** &nbsp;|&nbsp; **`🔴 Penetration Testing`** &nbsp;|&nbsp; **`🔴 Red Team Operations`**
+
+<br>
+
+> *"If you need a custom security tool, I can build it."*
+
 </div>
 
 ---
