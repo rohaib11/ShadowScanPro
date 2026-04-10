@@ -47,20 +47,11 @@
 - [Overview](#-overview)
 - [Features](#-features)
 - [Installation](#-installation)
-  - [Windows Installation](#windows-installation)
-  - [Kali Linux Installation](#kali-linux-installation)
-  - [Docker Installation](#docker-installation)
 - [Usage](#-usage)
-  - [Command Reference](#command-reference)
-  - [Examples](#examples)
 - [Modules](#-modules)
-  - [Exploitation Modules](#exploitation-modules)
-  - [OSINT Modules](#osint-modules)
-  - [Post-Exploitation Modules](#post-exploitation-modules)
-  - [Stealth & Evasion](#stealth--evasion)
 - [Configuration](#-configuration)
 - [Project Structure](#-project-structure)
-- [Screenshots](#-screenshots)
+- [Dashboard](#-dashboard)
 - [FAQ](#-faq)
 - [Contact](#-contact)
 - [License](#-license)
@@ -71,171 +62,235 @@
 
 **SHADOWSCAN PRO** is a military-grade offensive security automation framework that combines **real hacking capabilities** with a stunning, modern CLI interface. Unlike traditional tools that just scrape public data, ShadowScan Pro actively **exploits, penetrates, and maps** target infrastructure using advanced techniques used by nation-state actors and professional red teams.
 
-### Why ShadowScan Pro?
-
-| Traditional OSINT Tools | **SHADOWSCAN PRO** |
-|------------------------|---------------------|
-| Just scrapes public data | **Actively exploits and penetrates** |
-| Passive reconnaissance | **Offensive attack automation** |
-| Reports what it finds | **Gives you shells and access** |
-| Defensive-focused | **Red team / Offensive security** |
-| Basic CLI | **Cinematic, real-time attack dashboard** |
-| Requires manual exploitation | **Auto-exploit chain with AI** |
-| No post-exploitation | **Full post-exploitation suite** |
-
 ---
 
 ## ✨ Features
 
 ### 🔴 Active Exploitation
-
-| Feature | Description | CVE Coverage |
-|---------|-------------|--------------|
-| **Auto-Exploit Suggester** | Analyzes services and suggests working exploits | 50+ CVEs |
-| **SQLi Auto-Injector** | Finds and exploits SQL injection vulnerabilities | N/A |
-| **XSS Payload Generator** | Creates custom XSS payloads with WAF bypass | N/A |
-| **LFI/RFI Scanner** | Detects and exploits file inclusion vulnerabilities | N/A |
-| **Command Injection Tester** | Tests for RCE via command injection | N/A |
-| **SSRF Exploitation Chain** | Automates SSRF to internal network pivoting | N/A |
-| **Log4Shell Exploit** | CVE-2021-44228 - Remote code execution | Critical (10.0) |
-| **EternalBlue Exploit** | CVE-2017-0144 - SMBv1 RCE | Critical (9.8) |
-| **BlueKeep Exploit** | CVE-2019-0708 - RDP RCE | Critical (9.8) |
-| **Ghostcat Exploit** | CVE-2020-1938 - Tomcat AJP LFI | High (9.8) |
-| **Spring4Shell Exploit** | CVE-2022-22965 - Spring RCE | Critical (9.8) |
-| **Jenkins Exploits** | Multiple Jenkins RCE exploits | Critical |
+* **Auto-Exploit Suggester:** Analyzes services and suggests working exploits.
+* **Web Exploits:** SQLi Auto-Injector, XSS Payload Generator, LFI/RFI Scanner, Command Injection, SSRF.
+* **CVE Coverage:** Log4Shell, EternalBlue, BlueKeep, Ghostcat, Spring4Shell, Jenkins RCE.
 
 ### 🟠 Stealth & Evasion
-
-| Feature | Description |
-|---------|-------------|
-| **AI-Powered WAF Bypass** | 50+ techniques to bypass Web Application Firewalls |
-| **TOR + VPN Chain** | Multi-hop anonymity with automatic circuit rotation |
-| **Fingerprint Randomization** | Spoofs 50+ browser fingerprint parameters |
-| **Rate-Limit Evasion** | Smart request throttling to avoid detection |
-| **Captcha Solver** | OCR + AI for automatic captcha solving |
-| **User-Agent Mutation** | 10,000+ rotating user agents |
-| **Request Jitter** | Random delays to avoid pattern detection |
+* **AI-Powered WAF Bypass:** 50+ techniques to bypass Web Application Firewalls.
+* **TOR + VPN Chain:** Multi-hop anonymity with automatic circuit rotation.
+* **Fingerprint Randomization:** Spoofs 50+ browser fingerprint parameters.
 
 ### 🟡 Network & Infrastructure Attacks
-
-| Feature | Description |
-|---------|-------------|
-| **Subdomain Takeover Detector** | Checks 50+ vulnerable services for takeover |
-| **Cloud Misconfiguration Scanner** | Finds exposed S3, Azure Blobs, GCP Buckets |
-| **Kubernetes Exploiter** | Scans for exposed K8s APIs and exploits |
-| **Docker API Hijacker** | Finds and exploits exposed Docker APIs |
-| **SMB Exploitation** | EternalBlue, SMBGhost, SMBleed |
-| **RDP Exploitation** | BlueKeep, credential brute force |
+* **Cloud Scanners:** Finds exposed S3, Azure Blobs, GCP Buckets, and Docker APIs.
+* **Network Exploits:** EternalBlue, BlueKeep, credential brute force.
 
 ### 🟢 Advanced OSINT
-
-| Feature | Description |
-|---------|-------------|
-| **Dark Web Crawler** | Scrapes .onion sites for leaked credentials |
-| **Telegram Intel Gatherer** | Monitors Telegram channels for data leaks |
-| **Crypto Wallet Finder** | Scans for exposed private keys and seed phrases |
-| **Corporate Email Compromise Checker** | Finds CEO/CFO emails for BEC attacks |
-| **Employee Password Dump Finder** | Searches paste sites for corporate credentials |
-| **Leak Searcher** | Searches 10+ breach databases |
+* **Dark Web Crawler:** Scrapes .onion sites for leaked credentials.
+* **Telegram Intel Gatherer:** Monitors Telegram channels for data leaks.
 
 ### 🔵 Post-Exploitation
-
-| Feature | Description |
-|---------|-------------|
-| **Auto-Persistence Installer** | 10+ methods (Registry, Cron, Services, WMI) |
-| **Lateral Movement Mapper** | Maps internal network from foothold |
-| **Privilege Escalation Suggester** | Finds local PE vectors (SUID, sudo, services) |
-| **Credential Harvester** | Extracts passwords from memory and files |
-| **Keylogger Deployer** | Deploys stealth keyloggers |
-| **Mimikatz Integration** | Dumps credentials from LSASS |
+* **Persistence:** Auto-installers for Registry, Cron, Services, WMI.
+* **Harvesting & Control:** Credential harvesting, Keylogger deployer, Lateral movement mapper.
 
 ---
 
+## 📦 Installation
 
-# 📦 INSTALLATION
-
-## Windows
+### Windows Installation
 ```powershell
-git clone https://github.com/rohaib11/ShadowScanPro.git
+git clone [https://github.com/rohaib11/ShadowScanPro.git](https://github.com/rohaib11/ShadowScanPro.git)
 cd ShadowScanPro
 .\scripts\install-windows.ps1
 ```
 
-## Linux
+### Kali Linux Installation
 ```bash
-# Clone the repository
-git clone https://github.com/rohaib11/ShadowScanPro.git
+git clone [https://github.com/rohaib11/ShadowScanPro.git](https://github.com/rohaib11/ShadowScanPro.git)
 cd ShadowScanPro
-
-# Run the installer
 chmod +x scripts/install.sh
 sudo ./scripts/install.sh
-
-# Or manual installation
-python3 -m venv venv
-source venv/bin/activate
-pip install -e .
-
-# Verify installation
-shadowscan --help
-```
-
-## Docker
-```bash
-# Build and run with Docker
-docker-compose -f docker/docker-compose.yml up -d
-
-# Run a scan
-docker exec shadowscan-pro shadowscan scan --target example.com
-
-# Interactive mode
-docker exec -it shadowscan-pro shadowscan interactive
 ```
 
 ---
 
-# 🚀 USAGE
+## 🚀 Usage
 
 ```bash
-shadowscan scan --target example.com
+# Auto-exploit a target
 shadowscan exploit --target example.com --auto
-shadowscan post-exploit --session shell-1
+
+# Aggressive scan with port range
+shadowscan scan --target 192.168.1.0/24 --aggressive --ports 1-1000
+
+# Route through Tor
+shadowscan exploit --target example.com --auto --tor
+
+# Launch interactive console
+shadowscan interactive
+```
+## Exploit Command
+```bash
+# Auto-exploit a target
+shadowscan exploit --target example.com --auto
+
+# Aggressive mode with stealth
+shadowscan exploit --target example.com --auto --aggressive --stealth
+
+# Specific payload type
+shadowscan exploit --target example.com --auto --payload reverse_shell
+
+# Route through Tor
+shadowscan exploit --target example.com --auto --tor
+```
+
+## Scan Command
+```bash
+# Basic vulnerability scan
+shadowscan scan --target example.com
+
+# Aggressive scan with port range
+shadowscan scan --target 192.168.1.0/24 --aggressive --ports 1-1000
+
+# Service detection
+shadowscan scan --target example.com --service-detection
+```
+## Cloud Command
+```bash
+# Scan for cloud misconfigurations
+shadowscan cloud --scan-misconfigs
+
+# Target specific S3 bucket
+shadowscan cloud --target-bucket company-backup
+
+# Enumerate buckets
+shadowscan cloud --enum-buckets --company example
+```
+## Darkweb Command
+```bash
+# Search dark web
+shadowscan darkweb --query "company.com"
+
+# Deep search with Tor
+shadowscan darkweb --query "company.com" --tor --deep
+```
+
+## Post-Exploit Command
+```bash
+# Auto-persistence on session
+shadowscan post-exploit --session shell-1 --auto-persist
+
+# Harvest credentials
+shadowscan post-exploit --session shell-1 --harvest-creds
+
+# Lateral movement
+shadowscan post-exploit --session shell-1 --lateral-move
+
+# Privilege escalation
+shadowscan post-exploit --session shell-1 --privesc
+```
+---
+
+## ⚙️ Configuration
+
+Configuration is located at `~/.shadowscan/settings.yaml`:
+
+```yaml
+app:
+  name: "SHADOWSCAN PRO"
+  version: "1.0.0"
+
+stealth:
+  profile: "shadow"
+  tor_enabled: false
+  user_agent_rotation: true
+
+exploits:
+  auto_exploit: true
+  safe_mode: false
 ```
 
 ---
 
-# 📁 PROJECT STRUCTURE
+## 📁 PROJECT STRUCTURE
 
+```text
 ShadowScanPro/
- ├── shadowscan/
- ├── exploits/
- ├── osint/
- ├── post_exploit/
- ├── utils/
- ├── scripts/
- ├── docker/
- ├── tests/
+├── shadowscan/
+├── exploits/
+├── osint/
+├── post_exploit/
+├── utils/
+├── scripts/
+├── docker/
+└── tests/
+```
 
 ---
 
-# 🎯 DASHBOARD
+## 🎯 DASHBOARD
 
- 
+```text
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ 🔴 LIVE ATTACK DASHBOARD - target: example.com                                  │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                 │
+│  🎯 TARGET: example.com                      ⚡ STATUS: ATTACKING                 │
+│  🌐 IP: 93.184.216.34                        📡 VULNS FOUND: 3                  │
+│  🏢 HOSTING: EdgeCast Networks               💀 EXPLOITS READY: 2                 │
+│                                                                                 │
+│  ████████████████████████████████████████░░░░░░░░░░░░░░░░░░  68% COMPLETE       │
+│                                                                                 │
+│  ┌─────────────────────────────────────────────────────────────────────────┐   │
+│  │ 🔥 ACTIVE EXPLOITS                                                      │   │
+│  ├─────────────────────────────────────────────────────────────────────────┤   │
+│  │ [████████] CVE-2021-44228 (Log4Shell) .................... NOT VULNERABLE│   │
+│  │ [████████] SQL Injection at /api/login .................. VULNERABLE!    │   │
+│  │ [██████░░] XSS in search parameter ...................... EXPLOITABLE!   │   │
+│  └─────────────────────────────────────────────────────────────────────────┘   │
+│                                                                                 │
+│  💀 SHELLS OBTAINED: 0              🔑 CREDS FOUND: 0                           │
+│  📁 FILES EXFILTRATED: 0 MB         🌐 INTERNAL HOSTS: 0                        │
+│                                                                                 │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-# 📞 CONTACT
+## ❓ FAQ
 
-ROHAIB TECHNICAL  
-📞 +92 306 3844400  
-📧 rohaib@technical.com  
+* **Q: Is ShadowScan Pro free?**
+  * A: ShadowScan Pro is proprietary software. Contact the developer for licensing.
+* **Q: What platforms are supported?**
+  * A: Windows, Kali Linux, Ubuntu, Debian, macOS (limited).
+* **Q: How do I stay anonymous?**
+  * A: Use `--stealth` `--tor` flags and VPN for maximum anonymity.
 
 ---
 
-# 📜 LICENSE
+## 📞 CONTACT
 
+<div align="center">
+**ROHAIB TECHNICAL**<br>
+📱 Phone/WhatsApp: +92 306 3844400<br>
+📧 Email: rohaib@technical.com<br>
+🐦 Twitter: @rohaibtech<br>
+💬 Telegram: @rohaibtechnical<br>
+🌐 Website: https://rohaibtechnical.com<br>
+
+**Available for:**
+🔴 Custom Tool Development | 🔴 Penetration Testing Services | 🔴 Red Team Operations
+
+*"If you need a custom security tool, I can build it."*
+</div>
+
+---
+
+## 📜 LICENSE
+
+```text
 MIT License
 
----
+Copyright (c) 2024 ROHAIB TECHNICAL
 
-🔥 SHADOWSCAN PRO 🔥
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software.
+```
