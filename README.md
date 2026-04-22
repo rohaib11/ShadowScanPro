@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![ShadowScan Pro](https://via.placeholder.com/800x200/1a1a2e/ff0000?text=SHADOWSCAN+PRO)
 
 **Advanced Offensive Security & Auto-Exploitation Framework**
 
